@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 10px 0;
+    box-shadow: 0px 5px #dfe1e6;
+}
+
+.items {
+    display: flex;
+}
+
+.items div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.items div img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.text{
+    font: 1em sans-serif;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.login div{
+    display: flex;
+}
+
+.loginText {
+    font: 1em sans-serif;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.login div img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
+.content{
+    margin: 0px;
+    padding: 50px 0;
+}
+
+.RW{
+    font: fantasy;
+    font-size: 200%;
+    margin-left: 5%;
+}
+
+.section {
+    margin: 0 5%;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    border: rgba(128, 0, 128, 0.068);
+    border-radius: 20%;
+}
+
+.section div {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.section1 {
+    width: 50%;
+    background: url('https://www.verywellfit.com/thmb/BaLfipQhU3nl-S5LsDDwa-rYHic=/1500x1023/filters:no_upscale():max_bytes(150000):strip_icc()/Snapwire-Running-10-33cfd2ffc31d4410a2d1d197dfe21707.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.txt{
+    color: white;
+}
+
+
+
+.section2 {
+    background: url('https://images.healthshots.com/healthshots/en/uploads/2021/12/18081913/bhujangasana.jpg') no-repeat;
+    width: 20%;
+    background-size: cover;
+}
+
+.section3 {
+    background: url('https://post.healthline.com/wp-content/uploads/2021/03/running-732x549-thumbnail-732x549.jpg') no-repeat;
+    width: 20%;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.section div:hover {
+    width: 70%;
+    transition-duration: 0.5s;
+}
+
+.section div:hover img {
+    visibility: visible;
+}
+
+.section img {
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0;
+}
